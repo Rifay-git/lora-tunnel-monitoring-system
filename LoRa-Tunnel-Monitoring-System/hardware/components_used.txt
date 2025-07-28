@@ -1,0 +1,12 @@
+Components Used in LoRa Tunnel Safety System:
+
+1. Arduino Uno (2 units) – for both transmitter and receiver nodes
+2. LoRa SX1278 Modules (2 units)
+3. Raspberry Pi (used for cloud interfacing with ThingSpeak)
+4. DHT11 Sensor – for temperature and humidity
+5. MQ-2 Sensor – for gas leakage detection
+6. Buzzer – for emergency alert
+7. LED – visual indicator
+8. Jumper wires
+9. Breadboard
+10. Power Bank or 9V Battery for Arduino

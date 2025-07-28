@@ -1,0 +1,15 @@
+Project: LoRa-based Tunnel Worker Safety System
+
+Overview:
+This system uses LoRa communication to monitor environmental safety for tunnel workers. It includes:
+- A transmitter node (placed every 150 meters)
+- A central receiver
+- Cloud data visualization via ThingSpeak
+
+Architecture:
+[Sensor] → Arduino → LoRa Transmitter → 🛰️ → LoRa Receiver → Serial Monitor + ThingSpeak (via Pi)
+
+Why LoRa?
+- Long range (~10km line-of-sight)
+- Low power
+- No need for GSM or wired infrastructure
