@@ -1,0 +1,28 @@
+Circuit Connection for Transmitter Node:
+
+Arduino Uno:
+- DHT11 VCC → 5V
+- DHT11 GND → GND
+- DHT11 OUT → Digital Pin 2
+
+- MQ-2 VCC → 5V
+- MQ-2 GND → GND
+- MQ-2 OUT → Analog Pin A0
+
+- LoRa:
+   - VCC → 3.3V
+   - GND → GND
+   - MISO → Pin 12
+   - MOSI → Pin 11
+   - SCK  → Pin 13
+   - NSS  → Pin 10
+   - RESET → Pin 9
+   - DIO0  → Pin 2
+
+Circuit Connection for Receiver Node:
+
+Same LoRa connection as above.
+
+Optional:
+- Connect LoRa receiver to Raspberry Pi via USB and read data using Serial.
+- Python script sends received data to ThingSpeak.
